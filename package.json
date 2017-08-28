@@ -1,0 +1,25 @@
+{
+  "name": "html-email-template",
+  "version": "1.0.0",
+  "description": "Шаблон для вёрстки писем",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bananafishh/HTML-email-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bananafishh/HTML-email-template/issues"
+  },
+  "homepage": "https://github.com/bananafishh/HTML-email-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-stylus": "^2.6.0"
+  }
+}
