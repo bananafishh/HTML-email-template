@@ -5,16 +5,26 @@ body
 
 table
     border-spacing 0
-    font-family sans-serif
+    font-family Arial, sans-serif
     font-size $base-font-size
     color $text-color
-    background-color $content-bg
 
 td
     padding 0
 
 img
+	width 100%
+    height auto
     border 0
+
+a
+	color $link-color
+	span
+		color $link-color
+
+li
+    text-align -webkit-match-parent
+    display list-item
 
 div[style*="margin: 16px 0"]
     margin 0 !important
@@ -24,13 +34,14 @@ div[style*="margin: 16px 0"]
     table-layout fixed
     -webkit-text-size-adjust 100%
     -ms-text-size-adjust 100%
+    background-color $page-bg
 
 .webkit
     max-width $content-width
     margin 0 auto
 
-.outer {
-	Margin: 0 auto;
-    width: 100%;
-    max-width: $content-width;
-}
+.outer
+	Margin 0 auto
+	width 100%
+	max-width $content-width
+	background-color $content-bg
