@@ -32,5 +32,5 @@ gulp.task('default', ['styles','html'], function() {
 
 gulp.task('watch', function() {
 	gulp.watch('./src/styles/**/*.styl', ['styles']);
-	gulp.watch('./src/pages/**/*.html', ['html']);
+	gulp.watch('./src/*.html', ['html']);
 });
